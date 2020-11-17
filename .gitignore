@@ -74,3 +74,6 @@ $RECYCLE.BIN/
 
 #sass
 *.map
+
+#temp
+header-bg.jpg

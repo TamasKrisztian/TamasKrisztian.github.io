@@ -6,5 +6,63 @@
 body {
   margin: 0;
   padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  /*for testing*/
+  height: 300vh;
+}
+
+#main {
+  /*for testing*/
+  height: 66vh;
+  background-color: #689ac8;
+}
+
+#main header {
+  background-color: white;
+}
+
+#main header img {
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+}
+
+#main .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+#main .container #message,
+#main .container img {
+  width: 50%;
+}
+
+#btn-bar {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: white;
+}
+
+#btn-bar button {
+  cursor: pointer;
+  height: 3em;
+  outline: none;
+  width: 110px;
+}
+
+#btn-bar button:first-child {
+  border-radius: 50% 0 0 50%;
+  margin-left: calc(60% - 110px);
+}
+
+#btn-bar button:nth-child(2) {
+  border-radius: 0 50% 50% 0;
 }
 /*# sourceMappingURL=style.css.map */
