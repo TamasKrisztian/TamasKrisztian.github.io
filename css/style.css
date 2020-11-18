@@ -115,4 +115,46 @@ body {
           flex: 1;
   text-align: center;
 }
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.grid-container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 20vh 40vh 40vh;
+      grid-template-rows: 20vh 40vh 40vh;
+  -ms-grid-columns: 35% 15% 35% 15%;
+      grid-template-columns: 35% 15% 35% 15%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  background-color: #97916e;
+}
+
+.grid-container .h1-container {
+  grid-column: span 4;
+  background-color: #68B8DF;
+  padding: 8.5vh;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.grid-container img {
+  width: 50%;
+  height: 50%;
+  border-radius: 10%;
+}
+
+.grid-container .p-container {
+  font-size: 18px;
+  font-family: 'Montserrat', sans-serif;
+  line-height: 5vh;
+}
+
+.grid-container h1 {
+  margin: 0;
+}
 /*# sourceMappingURL=style.css.map */
