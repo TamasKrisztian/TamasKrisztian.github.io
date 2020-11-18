@@ -44,7 +44,7 @@ body h1 {
 }
 
 #main .container #message,
-#main .container img {
+#main .container #img {
   width: 100%;
   -ms-flex-negative: 0;
       flex-shrink: 0;
@@ -54,8 +54,8 @@ body h1 {
 }
 
 #main .container img {
-  max-width: 600px;
-  height: auto;
+  border-radius: 90% 50% 100% 50%;
+  max-width: 520px;
 }
 
 #main .container #message {
@@ -75,27 +75,27 @@ body h1 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   padding: 10px;
   border-radius: 0 0 20px 20px;
 }
 
 #btn-bar button {
   cursor: pointer;
+  font-size: 1.5em;
   height: 3em;
+  width: 25ch;
   outline: none;
-  width: 110px;
+  border-radius: 20px;
+  background-color: #a51515;
 }
 
-#btn-bar button:first-child {
-  border-radius: 20px 0 0 20px;
-  margin-left: calc(60% - 110px);
-}
-
-#btn-bar button:nth-child(2) {
-  border-radius: 0 20px 20px 0;
-}
-
-@media only screen and (min-width: 550px) {
+@media only screen and (min-width: 900px) {
   #main .container #message,
   #main .container img {
     width: 50%;
