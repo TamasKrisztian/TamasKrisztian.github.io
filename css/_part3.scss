@@ -1,0 +1,39 @@
+$blue: #68B8DF;
+$brown: #97916e;
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.grid-container {
+	display: grid;
+	grid-template-rows: 20vh 40vh 40vh;
+	grid-template-columns: 35% 15% 35% 15%;
+	align-items: center;
+	text-align: center;
+	background-color: $brown;
+
+	.h1-container	{
+		grid-column: span 4;
+		background-color: $blue;
+		padding: 8.5vh;
+		font-family: 'Montserrat', sans-serif;
+	}
+	
+	img {
+		width: 50%;
+		height: 50%;
+		border-radius: 10%;
+	}
+	
+	.p-container {
+		font-size: 18px;
+		font-family: 'Montserrat', sans-serif;
+		line-height: 5vh;
+	}
+
+	h1 {
+		margin: 0;
+	}
+}
