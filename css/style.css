@@ -65,4 +65,62 @@ body {
 #btn-bar button:nth-child(2) {
   border-radius: 0 20px 20px 0;
 }
+
+.container1 {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.container1 .item1 {
+  min-height: 400px;
+  background: url("http://www.noeallatotthon.hu/cikk/900_964_pletyka1.jpg") no-repeat;
+  background-position: center;
+  text-align: center;
+  margin: 10px;
+}
+
+.container1 .ImgDesc {
+  height: 100%;
+  width: 90%;
+  opacity: 0;
+  background-color: teal;
+  margin-left: 5%;
+}
+
+.container1 .item1:hover .ImgDesc {
+  opacity: 0.6;
+  text-align: justify;
+}
+
+.container2 {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.container2 .item2 {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+}
+
+a {
+  background-color: grey;
+}
 /*# sourceMappingURL=style.css.map */
