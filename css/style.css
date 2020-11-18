@@ -95,54 +95,64 @@ body h1 {
   background-color: #a51515;
 }
 
-.container1 {
-  width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+body {
+  margin: 0;
 }
 
-.container1 .item1 {
-  min-height: 400px;
-  background: url("http://www.noeallatotthon.hu/cikk/900_964_pletyka1.jpg") no-repeat;
-  background-position: center;
-  text-align: center;
-  margin: 10px;
+.containerMain .containerOne, .containerMain .containerTwo {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  height: 800px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 80% 20%;
+      grid-template-rows: 80% 20%;
+  padding: 10px;
+  border-radius: 5px;
+  color: #0779b5;
+  font-size: 20px;
 }
 
-.container1 .ImgDesc {
-  height: 100%;
-  width: 90%;
-  opacity: 0;
-  background-color: teal;
-  margin-left: 5%;
-}
-
-.container1 .item1:hover .ImgDesc {
-  opacity: 0.6;
+.containerMain .containerOne p, .containerMain .containerTwo p {
+  max-width: 600px;
   text-align: justify;
 }
 
-.container2 {
-  width: 100%;
+.containerMain .button {
+  text-align: center;
+  padding: 20px;
+  font-size: 20px;
+}
+
+.title2 {
+  text-align: center;
+  color: #274764;
+  background-color: #f1ecd1;
+}
+
+.containerMain {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 5%;
 }
 
-.container2 .item2 {
-  -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
+.containerMain .buttonDiv {
   text-align: center;
+}
+
+.containerMain .button {
+  background-color: #689ac8;
+  border: none;
+}
+
+.containerMain .button:hover {
+  background-color: #274764;
+  color: whitesmoke;
 }
 
 body {
