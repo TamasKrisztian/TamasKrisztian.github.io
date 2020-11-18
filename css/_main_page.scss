@@ -1,3 +1,5 @@
+$radius: 20px;
+
 #main {
   /*for testing*/
   height: 66vh;
@@ -36,11 +38,11 @@
     outline: none;
     width: 110px;
     &:first-child {
-      border-radius: 50% 0 0 50%;
+      border-radius: $radius 0 0 $radius;
       margin-left: calc(60% - 110px);
     }
     &:nth-child(2) {
-      border-radius: 0 50% 50% 0;
+      border-radius: 0 $radius $radius 0;
     }
   }
 }
