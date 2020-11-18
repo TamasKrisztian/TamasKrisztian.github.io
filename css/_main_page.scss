@@ -1,9 +1,6 @@
 $radius: 20px;
 
 #main {
-  /*for testing*/
-  height: 66vh;
-
   background-color: $main-light-blue;
 
   header {
@@ -22,16 +19,32 @@ $radius: 20px;
 
     #message,
     img {
-      width: 50%;
+      width: 100%;
+      flex-shrink: 0;
+      flex-grow: 1;
+    }
+
+    img {
+      max-width: 600px;
+      height: auto;
+    }
+
+    #message {
+      padding: 0 40px;
+    }
+
+    h1 {
+      font-size: 2.5em;
     }
   }
 }
 #btn-bar {
+  background-color: $main-light-blue;
   position: sticky;
   top: 0;
   display: flex;
-  background-color: white;
   padding: 10px;
+  border-radius: 0 0 $radius $radius;
   button {
     cursor: pointer;
     height: 3em;
@@ -43,6 +56,15 @@ $radius: 20px;
     }
     &:nth-child(2) {
       border-radius: 0 $radius $radius 0;
+    }
+  }
+}
+
+@media only screen and (min-width: 550px) {
+  #main .container {
+    #message,
+    img {
+      width: 50%;
     }
   }
 }
