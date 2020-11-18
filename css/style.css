@@ -58,11 +58,11 @@ body {
 }
 
 #btn-bar button:first-child {
-  border-radius: 50% 0 0 50%;
+  border-radius: 20px 0 0 20px;
   margin-left: calc(60% - 110px);
 }
 
 #btn-bar button:nth-child(2) {
-  border-radius: 0 50% 50% 0;
+  border-radius: 0 20px 20px 0;
 }
 /*# sourceMappingURL=style.css.map */
