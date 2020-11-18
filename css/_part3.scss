@@ -1,10 +1,5 @@
-$blue: #68B8DF;
+$blue:#689ac8;
 $brown: #97916e;
-
-body {
-	margin: 0;
-	padding: 0;
-}
 
 .grid-container {
 	display: grid;
@@ -13,11 +8,13 @@ body {
 	align-items: center;
 	text-align: center;
 	background-color: $brown;
+	padding-right: 7vw;
 
 	.h1-container	{
 		grid-column: span 4;
 		background-color: $blue;
-		padding: 8.5vh;
+		line-height: 20vh;
+		width: 100vw;
 		font-family: 'Montserrat', sans-serif;
 	}
 	
@@ -30,7 +27,7 @@ body {
 	.p-container {
 		font-size: 18px;
 		font-family: 'Montserrat', sans-serif;
-		line-height: 5vh;
+		line-height: 6vh;
 	}
 
 	h1 {
