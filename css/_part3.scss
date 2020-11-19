@@ -3,23 +3,14 @@ $brown: #97916e;
 
 .grid-container {
   display: grid;
-  grid-template-rows: 20vh 40vh 40vh;
+  grid-template-rows:  40vh 40vh;
   grid-template-columns: 35% 15% 35% 15%;
   align-items: center;
   text-align: center;
-  background-color: $brown;
-  padding-right: 6%;
-
   max-width: $main-page-max-width;
   margin: 0 auto;
 
-  .h1-container {
-    grid-column: span 4;
-    background-color: $blue;
-    line-height: 20vh;
-    width: 106.4%;
-    font-family: "Montserrat", sans-serif;
-  }
+ 
 
   img {
     width: 50%;
@@ -31,7 +22,8 @@ $brown: #97916e;
   .p-container {
     font-size: 1rem;
     font-family: "Montserrat", sans-serif;
-    line-height: 6vh;
+		line-height: 6vh;
+		text-align: left;
   }
 
   h1 {
@@ -43,4 +35,12 @@ $brown: #97916e;
       line-height: 3vh;
     }
   }
+}
+.h1-container {
+	text-align: center;
+	margin: 0 auto;
+	max-width: 1200px;
+	line-height: 20vh;
+	width: 100vw;
+	font-family: "Montserrat", sans-serif;
 }
