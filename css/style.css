@@ -290,6 +290,10 @@ body {
   color: whitesmoke;
 }
 
+.containerMain img {
+  max-width: 100%;
+}
+
 .grid-container {
   display: -ms-grid;
   display: grid;
