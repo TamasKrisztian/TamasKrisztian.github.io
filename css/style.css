@@ -8,7 +8,8 @@ body {
   padding: 0;
   font-family: "Roboto", sans-serif;
   font-size: 100%;
-  background-color: #69675b;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#69675b), color-stop(white), color-stop(#69675b), color-stop(white), color-stop(#69675b), color-stop(white), color-stop(#69675b), to(white));
+  background-image: linear-gradient(to bottom, #69675b, white, #69675b, white, #69675b, white, #69675b, white);
   /*for testing*/
   height: 300vh;
 }
