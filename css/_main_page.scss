@@ -21,7 +21,6 @@ $horizontal-spacing: space-around;
     padding: 0 30px;
 
     div {
-      //flex-basis: 500px;
       display: flex;
       justify-content: center;
       color: $font-light-blue;
@@ -35,14 +34,14 @@ $horizontal-spacing: space-around;
         flex-basis: 640px;
       }
     }
-  }
 
-  header img {
-    display: block;
-    padding: 0;
-    margin: 0;
-    max-width: 100%;
-    height: auto;
+    img {
+      display: block;
+      padding: 0;
+      margin: 0;
+      max-width: 100%;
+      height: auto;
+    }
   }
 
   .container {
@@ -163,8 +162,4 @@ $horizontal-spacing: space-around;
   #btn-bar {
     border-radius: 0;
   }
-}
-
-.title2 {
-  margin-top: 100px;
 }

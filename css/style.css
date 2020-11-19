@@ -226,10 +226,6 @@ body h1 {
   }
 }
 
-.title2 {
-  margin-top: 100px;
-}
-
 body {
   margin: 0;
 }
@@ -261,19 +257,23 @@ body {
 }
 
 .title2 {
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-top: 100px;
   text-align: center;
   color: #274764;
   background-color: #f1ecd1;
 }
 
 .containerMain {
+  max-width: 1200px;
+  margin: 0 auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  margin: 5%;
 }
 
 .containerMain .buttonDiv {

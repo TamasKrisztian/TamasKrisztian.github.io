@@ -11,8 +11,8 @@ body {
   color: $font-dark-blue;
   font-size: 20px;
   p {
-      max-width: 600px;
-      text-align: justify;
+    max-width: 600px;
+    text-align: justify;
   }
 }
 %button {
@@ -21,34 +21,38 @@ body {
   font-size: 20px;
 }
 .title2 {
+  max-width: $main-page-max-width;
+  margin: 0 auto;
+  margin-top: 100px;
   text-align: center;
   color: $main-dark-blue;
   background-color: $weird-light-gray;
 }
 .containerMain {
+  max-width: $main-page-max-width;
+  margin: 0 auto;
   display: flex;
   justify-content: space-between;
-  margin: 5%;
 
   .containerOne {
     @extend %containers;
-   }
-   .containerTwo {
-     @extend %containers;
-   }
-   .buttonDiv {
-     text-align: center;
-   }
-   .button {
-     @extend %button;
-     background-color: $main-light-blue;
-     border: none;
-   }
-   .button:hover {
-     background-color: $main-dark-blue;
-     color: whitesmoke;
-   }
-   img {
-     max-width: 100%;
-   }
+  }
+  .containerTwo {
+    @extend %containers;
+  }
+  .buttonDiv {
+    text-align: center;
+  }
+  .button {
+    @extend %button;
+    background-color: $main-light-blue;
+    border: none;
+  }
+  .button:hover {
+    background-color: $main-dark-blue;
+    color: whitesmoke;
+  }
+  img {
+    max-width: 100%;
+  }
 }
