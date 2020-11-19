@@ -310,6 +310,7 @@ body {
   text-align: center;
   max-width: 1200px;
   margin: 0 auto;
+  padding-right: 7vh;
 }
 
 .grid-container img {
@@ -341,5 +342,6 @@ body {
   font-family: "Montserrat", sans-serif;
   color: #274764;
   background-color: #689ac8;
+  border-radius: 10px;
 }
 /*# sourceMappingURL=style.css.map */

@@ -1,5 +1,4 @@
-$blue: #689ac8;
-$brown: #97916e;
+@import "variables";
 
 .grid-container {
   display: grid;
@@ -9,6 +8,7 @@ $brown: #97916e;
   text-align: center;
   max-width: $main-page-max-width;
   margin: 0 auto;
+  padding-right: 7vh;
 
  
 
@@ -24,7 +24,7 @@ $brown: #97916e;
     font-family: "Montserrat", sans-serif;
 		line-height: 6vh;
     text-align: left;
-    color: #274764;
+    color: $main-dark-blue;
   }
 
   
@@ -41,7 +41,8 @@ $brown: #97916e;
 	max-width: 1200px;
 	width: 100vw;
   font-family: "Montserrat", sans-serif;
-  color: #274764;
-  background-color: #689ac8;
+  color:$main-dark-blue;
+  background-color:$main-light-blue;
+  border-radius: 10px;
   
 }
