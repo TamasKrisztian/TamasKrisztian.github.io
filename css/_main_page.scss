@@ -22,13 +22,19 @@ $horizontal-spacing: space-around;
     padding: 0 30px;
 
     div {
-      flex-basis: 500px;
+      //flex-basis: 500px;
       display: flex;
       justify-content: center;
       color: $font-light-blue;
       text-shadow: 1px 1px 1px $font-dark-blue;
       font-size: 1.3em;
       text-align: center;
+      &:first-child {
+        flex-basis: 460px;
+      }
+      &:nth-child(2) {
+        flex-basis: 640px;
+      }
     }
   }
 
@@ -54,9 +60,9 @@ $horizontal-spacing: space-around;
       align-self: flex-start;
       height: 34em;
       position: relative;
-      flex-basis: 500px;
       border-radius: 0 0 $radius $radius;
       &:first-child {
+        flex-basis: 460px;
         z-index: 1;
         background-image: linear-gradient(
           to bottom,
@@ -65,6 +71,7 @@ $horizontal-spacing: space-around;
         );
       }
       &:nth-child(2) {
+        flex-basis: 640px;
         z-index: 0;
         align-self: flex-start;
         border-radius: 0 0 $radius $radius;
@@ -93,7 +100,6 @@ $horizontal-spacing: space-around;
 
     .pic-holder {
       padding: 40px;
-      max-width: 500px;
       display: flex;
       align-items: center;
       justify-content: center;
@@ -125,6 +131,12 @@ $horizontal-spacing: space-around;
     flex-basis: 500px;
     display: flex;
     justify-content: center;
+    &:first-child {
+      flex-basis: 460px;
+    }
+    &:nth-child(2) {
+      flex-basis: 640px;
+    }
   }
   button {
     cursor: pointer;
