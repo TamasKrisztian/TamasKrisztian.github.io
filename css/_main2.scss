@@ -2,10 +2,8 @@ body {
   margin: 0;
 }
 %containers {
-  width: max-content;
-  height: 800px;
   display: grid;
-  grid-template-rows: 80% 20%;
+  grid-template-rows: auto auto;
   padding: 20px;
   border-radius: 5px;
   color: $font-dark-blue;
