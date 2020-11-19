@@ -27,7 +27,7 @@ body {
   margin-top: 100px;
   text-align: center;
   color: $main-dark-blue;
-  background-color: $weird-light-gray;
+  background-color: $main-light-blue;
 }
 .containerMain {
   max-width: $main-page-max-width;
@@ -48,6 +48,7 @@ body {
     @extend %button;
     background-color: $main-light-blue;
     border: none;
+    border-radius: 5px;;
   }
   .button:hover {
     background-color: $main-dark-blue;

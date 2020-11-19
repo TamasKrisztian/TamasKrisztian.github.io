@@ -264,7 +264,7 @@ body {
   margin-top: 100px;
   text-align: center;
   color: #274764;
-  background-color: #f1ecd1;
+  background-color: #689ac8;
 }
 
 .containerMain {
@@ -285,6 +285,7 @@ body {
 .containerMain .button {
   background-color: #689ac8;
   border: none;
+  border-radius: 5px;
 }
 
 .containerMain .button:hover {
