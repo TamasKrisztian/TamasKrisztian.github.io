@@ -158,6 +158,13 @@ $horizontal-spacing: space-around;
   }
 }
 
+@media only screen and (max-width: 1200px) {
+  #main header,
+  #btn-bar {
+    border-radius: 0;
+  }
+}
+
 .title2 {
   margin-top: 100px;
 }
