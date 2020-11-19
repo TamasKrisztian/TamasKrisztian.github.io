@@ -39,8 +39,6 @@ body h1 {
 }
 
 #main header div {
-  -ms-flex-preferred-size: 500px;
-      flex-basis: 500px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -51,6 +49,16 @@ body h1 {
   text-shadow: 1px 1px 1px #0779b5;
   font-size: 1.3em;
   text-align: center;
+}
+
+#main header div:first-child {
+  -ms-flex-preferred-size: 460px;
+      flex-basis: 460px;
+}
+
+#main header div:nth-child(2) {
+  -ms-flex-preferred-size: 640px;
+      flex-basis: 640px;
 }
 
 #main header img {
@@ -70,7 +78,7 @@ body h1 {
           align-items: center;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-  height: 30em;
+  height: 25em;
   margin: 0 30px;
 }
 
@@ -87,20 +95,22 @@ body h1 {
           justify-content: flex-start;
   -ms-flex-item-align: start;
       align-self: flex-start;
-  height: 620px;
+  height: 34em;
   position: relative;
-  -ms-flex-preferred-size: 500px;
-      flex-basis: 500px;
   border-radius: 0 0 20px 20px;
 }
 
 #main .container .hfix:first-child {
+  -ms-flex-preferred-size: 460px;
+      flex-basis: 460px;
   z-index: 1;
   background-image: -webkit-gradient(linear, left top, left bottom, from(white), to(rgba(255, 255, 255, 0.5)));
   background-image: linear-gradient(to bottom, white, rgba(255, 255, 255, 0.5));
 }
 
 #main .container .hfix:nth-child(2) {
+  -ms-flex-preferred-size: 640px;
+      flex-basis: 640px;
   z-index: 0;
   -ms-flex-item-align: start;
       align-self: flex-start;
@@ -120,7 +130,7 @@ body h1 {
       -ms-flex-pack: center;
           justify-content: center;
   padding: 10px 40px 40px;
-  height: 30em;
+  height: 25em;
 }
 
 #main .container #message h1 {
@@ -136,7 +146,6 @@ body h1 {
 
 #main .container .pic-holder {
   padding: 40px;
-  max-width: 500px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -146,7 +155,7 @@ body h1 {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  height: 30em;
+  height: 25em;
 }
 
 #main .container .pic-holder img {
@@ -190,13 +199,23 @@ body h1 {
           justify-content: center;
 }
 
+#btn-bar div:first-child {
+  -ms-flex-preferred-size: 460px;
+      flex-basis: 460px;
+}
+
+#btn-bar div:nth-child(2) {
+  -ms-flex-preferred-size: 640px;
+      flex-basis: 640px;
+}
+
 #btn-bar button {
   cursor: pointer;
   font-size: 1.5em;
   height: 2em;
-  width: 25ch;
+  width: 22ch;
   outline: none;
-  border-radius: 20px;
+  border-radius: 5px;
   background-color: #ff6200;
 }
 
