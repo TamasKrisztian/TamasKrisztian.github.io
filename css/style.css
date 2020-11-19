@@ -140,7 +140,8 @@ body h1 {
 #main .container #message h2 {
   color: #68b8df;
   text-shadow: 1px 1px 1px #0779b5;
-  line-height: 150%;
+  line-height: 130%;
+  font-size: 1.3em;
 }
 
 #main .container .pic-holder {
