@@ -307,6 +307,8 @@ body {
   text-align: center;
   background-color: #97916e;
   padding-right: 6%;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .grid-container .h1-container {
@@ -314,7 +316,7 @@ body {
   background-color: #689ac8;
   line-height: 20vh;
   width: 106.4%;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 .grid-container img {
@@ -326,7 +328,7 @@ body {
 
 .grid-container .p-container {
   font-size: 1rem;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   line-height: 6vh;
 }
 
