@@ -2,15 +2,13 @@
 
 .grid-container {
   display: grid;
-  grid-template-rows:  40vh 40vh;
+  grid-template-rows: 40vh 40vh;
   grid-template-columns: 35% 15% 35% 15%;
   align-items: center;
   text-align: center;
   max-width: $main-page-max-width;
   margin: 0 auto;
   padding-right: 7vh;
-
- 
 
   img {
     width: 50%;
@@ -22,12 +20,10 @@
   .p-container {
     font-size: 1rem;
     font-family: "Montserrat", sans-serif;
-		line-height: 6vh;
+    line-height: 6vh;
     text-align: left;
     color: $main-dark-blue;
   }
-
-  
 
   @media (max-width: 1150px) {
     p {
@@ -36,13 +32,12 @@
   }
 }
 .h1-container {
-	text-align: center;
-	margin: 0 auto;
-	max-width: 1200px;
-	width: 100vw;
+  text-align: center;
+  margin: 0 auto;
+  max-width: 1200px;
+  width: 100vw;
   font-family: "Montserrat", sans-serif;
-  color:$main-dark-blue;
-  background-color:$main-light-blue;
+  color: $main-dark-blue;
+  background-color: $main-light-blue;
   border-radius: 10px;
-  
 }
