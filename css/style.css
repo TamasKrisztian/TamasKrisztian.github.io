@@ -264,11 +264,6 @@ body {
   color: whitesmoke;
 }
 
-body {
-  margin: 0;
-  padding: 0;
-}
-
 .grid-container {
   display: -ms-grid;
   display: grid;
@@ -281,12 +276,14 @@ body {
           align-items: center;
   text-align: center;
   background-color: #97916e;
+  padding-right: 7vw;
 }
 
 .grid-container .h1-container {
   grid-column: span 4;
-  background-color: #68B8DF;
-  padding: 8.5vh;
+  background-color: #689ac8;
+  line-height: 20vh;
+  width: 100vw;
   font-family: 'Montserrat', sans-serif;
 }
 
@@ -299,7 +296,7 @@ body {
 .grid-container .p-container {
   font-size: 18px;
   font-family: 'Montserrat', sans-serif;
-  line-height: 5vh;
+  line-height: 6vh;
 }
 
 .grid-container h1 {
