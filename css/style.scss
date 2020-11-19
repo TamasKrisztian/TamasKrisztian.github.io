@@ -18,9 +18,6 @@ body {
     rgba($color: $weird-dark-gray, $alpha: 1),
     rgba($color: #fff, $alpha: 1)
   );
-
-  /*for testing*/
-  height: 300vh;
 }
 
 @import "main_page";

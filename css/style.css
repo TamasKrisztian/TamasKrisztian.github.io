@@ -10,8 +10,6 @@ body {
   font-size: 100%;
   background-image: -webkit-gradient(linear, left top, left bottom, from(#69675b), to(white));
   background-image: linear-gradient(to bottom, #69675b, white);
-  /*for testing*/
-  height: 300vh;
 }
 
 body h1 {
