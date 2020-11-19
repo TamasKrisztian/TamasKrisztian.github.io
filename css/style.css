@@ -217,6 +217,7 @@ body h1 {
   outline: none;
   border-radius: 5px;
   background-color: #ff6200;
+  color: #274764;
 }
 
 @media only screen and (max-width: 1200px) {
