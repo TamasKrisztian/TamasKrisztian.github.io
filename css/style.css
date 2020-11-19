@@ -295,30 +295,37 @@ body {
           align-items: center;
   text-align: center;
   background-color: #97916e;
-  padding-right: 7vw;
+  padding-right: 6%;
 }
 
 .grid-container .h1-container {
   grid-column: span 4;
   background-color: #689ac8;
   line-height: 20vh;
-  width: 100vw;
+  width: 106.4%;
   font-family: 'Montserrat', sans-serif;
 }
 
 .grid-container img {
   width: 50%;
   height: 50%;
+  min-width: 100px;
   border-radius: 10%;
 }
 
 .grid-container .p-container {
-  font-size: 18px;
+  font-size: 1rem;
   font-family: 'Montserrat', sans-serif;
   line-height: 6vh;
 }
 
 .grid-container h1 {
   margin: 0;
+}
+
+@media (max-width: 1150px) {
+  .grid-container p {
+    line-height: 3vh;
+  }
 }
 /*# sourceMappingURL=style.css.map */
