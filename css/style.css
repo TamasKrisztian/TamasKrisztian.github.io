@@ -322,10 +322,7 @@ body {
   font-family: "Montserrat", sans-serif;
   line-height: 6vh;
   text-align: left;
-}
-
-.grid-container h1 {
-  margin: 0;
+  color: #274764;
 }
 
 @media (max-width: 1150px) {
@@ -338,8 +335,9 @@ body {
   text-align: center;
   margin: 0 auto;
   max-width: 1200px;
-  line-height: 20vh;
+  line-height: 10vh;
   width: 100vw;
   font-family: "Montserrat", sans-serif;
+  color: #274764;
 }
 /*# sourceMappingURL=style.css.map */
