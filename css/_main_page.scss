@@ -1,6 +1,6 @@
 $radius: 20px;
 $main-page-max-width: 1200px;
-$main-page-height: 30em;
+$main-page-height: 25em;
 $horizontal-spacing: space-around;
 
 #main {
@@ -52,7 +52,7 @@ $horizontal-spacing: space-around;
       flex-direction: column;
       justify-content: flex-start;
       align-self: flex-start;
-      height: 620px;
+      height: 34em;
       position: relative;
       flex-basis: 500px;
       border-radius: 0 0 $radius $radius;
@@ -130,9 +130,9 @@ $horizontal-spacing: space-around;
     cursor: pointer;
     font-size: 1.5em;
     height: 2em;
-    width: 25ch;
+    width: 22ch;
     outline: none;
-    border-radius: $radius;
+    border-radius: 5px;
     background-color: #ff6200;
   }
 }
