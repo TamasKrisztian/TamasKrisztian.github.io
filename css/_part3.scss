@@ -23,12 +23,11 @@ $brown: #97916e;
     font-size: 1rem;
     font-family: "Montserrat", sans-serif;
 		line-height: 6vh;
-		text-align: left;
+    text-align: left;
+    color: #274764;
   }
 
-  h1 {
-    margin: 0;
-  }
+  
 
   @media (max-width: 1150px) {
     p {
@@ -40,7 +39,9 @@ $brown: #97916e;
 	text-align: center;
 	margin: 0 auto;
 	max-width: 1200px;
-	line-height: 20vh;
+	line-height: 10vh;
 	width: 100vw;
-	font-family: "Montserrat", sans-serif;
+  font-family: "Montserrat", sans-serif;
+  color: #274764;
+  
 }
