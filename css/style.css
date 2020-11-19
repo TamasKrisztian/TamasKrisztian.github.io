@@ -276,7 +276,7 @@ body {
   display: grid;
   -ms-grid-rows: 80% 20%;
       grid-template-rows: 80% 20%;
-  padding: 10px;
+  padding: 20px;
   border-radius: 5px;
   color: #0779b5;
   font-size: 20px;
@@ -331,6 +331,21 @@ body {
 
 .containerMain img {
   max-width: 100%;
+}
+
+@media only screen and (max-width: 750px) {
+  html body .containerMain {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
 }
 
 .grid-container {
